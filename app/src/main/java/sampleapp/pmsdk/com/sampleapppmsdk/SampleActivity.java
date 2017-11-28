@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.pokkt.sdk.pocketmoney.activity.PMSdk;
+import com.pokkt.sdk.pocketmoney.avail.PMSdk;
 
 
 public class SampleActivity extends AppCompatActivity implements View.OnClickListener{
@@ -20,7 +20,6 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
         showOfferwall.setOnClickListener(this);
 
         PMSdk.initializePMSdk("78374919acfa960412febddb66b3c8ec", ContextCompat.getColor(this, R.color.colorPrimary),ContextCompat.getColor(this, android.R.color.white),"App Zone");
-
     }
 
     @Override

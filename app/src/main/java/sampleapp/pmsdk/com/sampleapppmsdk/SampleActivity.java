@@ -19,7 +19,7 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
         Button showOfferwall = findViewById(R.id.showOfferwalls);
         showOfferwall.setOnClickListener(this);
 
-        PMSdk.initializePMSdk("78374919acfa960412febddb66b3c8ec", ContextCompat.getColor(this, R.color.colorPrimary),ContextCompat.getColor(this, android.R.color.white),"App Zone");
+        PMSdk.initializePMSdk("b5efe1285f4dd8abc5ba910ba07915eb", ContextCompat.getColor(this, R.color.colorPrimary),ContextCompat.getColor(this, android.R.color.white),"App Zone");
     }
 
     @Override
